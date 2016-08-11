@@ -15,5 +15,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once ( plugin_dir_path(__FILE__) . 'wp-ny-orgs-cpt.php');
 require_once ( plugin_dir_path(__FILE__) . 'wp-ny-orgs-fields.php');
+require_once ( plugin_dir_path(__FILE__) . 'wp-ny-orgs-shortcode.php');
 
 ?>

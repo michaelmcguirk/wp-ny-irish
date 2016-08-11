@@ -1,0 +1,13 @@
+/*
+Theme Name: Child of beyond-expectations
+Description: Child Theme
+Author: Michael McGuirk
+Version: 0.1
+Template: beyond-expectations
+*/
+
+@import url("../beyond-expectations/style.css");
+
+.primary-navigation, .primary-navigation.toggled, .social-search, .social-navigation{
+	background: #237d43;
+}

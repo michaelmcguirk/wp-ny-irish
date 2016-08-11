@@ -18,8 +18,8 @@ section of this theme.
     <footer id="site-footer" class="site-footer">
         <div id="site-info" class="site-info">
                 <div class="info-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
-                <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'beyond-expectations' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'beyond-expectations' ), 'WordPress' ); ?></a>
-                </div>
+                
+                
         </div>
     </footer>
     <?php wp_footer(); ?>

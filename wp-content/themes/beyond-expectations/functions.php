@@ -98,6 +98,9 @@ function beyond_expectations_theme_setup() {
         'primary-navigation' => esc_html__('Primary Navigation', 'beyond-expectations'),
         'social-navigation' => esc_html__('Social Navigation', 'beyond-expectations'),
     ));
+    
+    // Enable and Activate Load Text Domain for Translation
+    load_theme_textdomain('beyond-expectations');
 }
 add_action('after_setup_theme', 'beyond_expectations_theme_setup');
 

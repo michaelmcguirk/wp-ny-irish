@@ -43,11 +43,10 @@ of this theme. This also displays the navigation menu as well or any extra featu
     <header id="site-header" class="site-header" style="background: url(<?php header_image(); ?>);">
         <div id="site-branding" class="site-branding">
             <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
-	    <?php the_title('<h2 class="entry-title">', '</h2>'); ?>
             <h4 class="site-description"><?php bloginfo('description'); ?></h4>
         </div>
     </header>
-	     <nav id="site-navigation" class="primary-navigation">
+    <nav id="site-navigation" class="primary-navigation">
         <button class="menu-toggle" aria-conrol="primary-menu" aria-expanded="false"><?php esc_html_e('Menu', 'beyond-expectations'); ?></button>
         <?php
             wp_nav_menu(array(
